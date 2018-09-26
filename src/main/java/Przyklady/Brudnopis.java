@@ -2,24 +2,22 @@ package Przyklady;
 
 public class Brudnopis {
 
-    public static void main(String[] args) {
+        int test = 10;
 
-        float x = 0;
-        float y = 5;
-        int z = (int)(x /y);
 
-        switch (z) {
-            case 1:
-                x = x + 2;
-                break;
-            case 2:
-                x = x + 3;
-                break;
-                default:
-                    x = x + 1;
-                    break;
+        void printTest(){
+            int test = 20;
+            System.out.println("Test :  " + test);
         }
 
-        System.out.println( x);
+
+    public static void main(String[] args) {
+
+            Brudnopis brudnopis = new Brudnopis();
+
+
+            brudnopis.printTest();
+
+
     }
 }
